@@ -31,7 +31,7 @@ files.upload()
 import sqlite3
 
 # Read SQL script
-with open("18fc0d17-c270-46d4-a062-0601d2362343.txt", "r") as file:
+with open("furniturestore_sql.txt", "r") as file:
     sql_script = file.read()
 
 # Connect to DB and execute
